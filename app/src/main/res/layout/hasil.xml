@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cvMain"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/nims"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="NIM"/>
+        <TextView
+            android:id="@+id/namas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nims"
+            android:textSize="15sp"
+            android:text="NAMA"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/alamats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namas"
+            android:textSize="15sp"
+            android:text="ALAMAT"
+            android:textColor="#000"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
